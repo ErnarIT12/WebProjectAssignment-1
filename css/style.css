@@ -1,59 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&display=swap');
-
 :root {
     --accent: #d4ff3f;
 }
-
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
 body {
     font-family: Arial, sans-serif;
     background: #111;
     color: #fff;
     line-height: 1.6;
 }
-
 h1, h2, h3, .logo, .btn, .nav-menu a, .workout-table th {
     font-family: "Bebas Neue", sans-serif;
     letter-spacing: 1px;
 }
-
 a {
     color: #fff;
     text-decoration: none;
 }
-
 a:hover {
     color: var(--accent);
 }
-
 img {
     width: 100%;
     display: block;
 }
-
 .container {
     width: 90%;
     max-width: 1200px;
     margin: auto;
 }
-
 #main-header {
     background: #181818;
     padding: 20px 0;
     border-bottom: 1px solid #333;
 }
-
 .header-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 .logo {
     font-size: 30px;
 }
@@ -128,7 +117,6 @@ img {
     margin-bottom: 40px;
     text-transform: uppercase;
 }
-
 .card-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -289,7 +277,6 @@ img {
 .steps-list li {
     padding: 4px 0;
 }
-
 #contact-form {
     display: flex;
     flex-direction: column;
@@ -300,7 +287,6 @@ img {
     border-radius: 10px;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
 }
-
 #contact-form h2 {
     margin-bottom: 10px;
     color: var(--accent);
@@ -469,11 +455,9 @@ img {
     max-width: 900px;
     margin: 0 auto;
 }
-
 .team-section {
     background: #151515;
 }
-
 .team-card {
     display: grid;
     grid-template-columns: 120px 1fr;
@@ -485,22 +469,18 @@ img {
     border-radius: 10px;
     box-shadow: 0 12px 28px rgba(0, 0, 0, 0.22);
 }
-
 .team-card h3 {
     font-size: 24px;
     margin-bottom: 4px;
 }
-
 .team-card p {
     color: #aaa;
 }
-
 .team-card .team-role {
     color: var(--accent);
     font-weight: bold;
     margin-bottom: 8px;
 }
-
 .profile-img {
     flex: 0 0 120px;
     width: 120px;
@@ -510,7 +490,6 @@ img {
     margin: 0;
     border: 3px solid var(--accent);
 }
-
 @media (max-width: 800px) {
     .hero-content {
         grid-template-columns: 1fr;
